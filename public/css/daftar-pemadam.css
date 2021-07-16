@@ -1,0 +1,298 @@
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+.heading {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.heading .col-4 {
+    padding: 20px;
+}
+
+.heading .col-4 h2 {
+    text-align: center;
+}
+
+.heading .col-4 {
+    padding: 30px;
+}
+
+.notifications,
+.history {
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.bahasa {
+    text-align: center;
+}
+
+.history {
+    font-size: 35px !important;
+    margin-top: 0px;
+}
+
+.dp48 {
+    font-size: 30px !important;
+    margin-top: 5px;
+}
+
+.notifications {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.notifications .badge {
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    padding: 5px 7px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+span.lang {
+    font-size: 11px;
+    display: block;
+}
+
+.heading .col-6 {
+    padding: 0px;
+}
+
+a {
+    color: #fff;
+}
+
+.active {
+    color: #DC4341;
+}
+
+.activated {
+    background-color: #DC4341 !important;
+    color: #fff !important;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #333333;
+    padding: 20px;
+}
+
+.footer .row .col-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer span {
+    font-size: 30px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+section.sub-heading .col-2 {
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+section.sub-heading hr {
+    height: 2px;
+    width: 110px;
+    margin-top: 0px;
+    color: #fff;
+    background-color: #DC4341;
+}
+
+section.content-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.general-feeds {
+    width: 100%;
+    font-family: Nunito;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #DC4341;
+    border-radius: 10px;
+}
+
+#search {
+    font-family: Nunito;
+}
+
+.content-container h4 {
+    font-size: 20px;
+    font-family: Nunito;
+    margin-bottom: 20px;
+}
+
+.pemadam-container {
+    width: 90%;
+    margin: auto;
+    font-family: Nunito;
+}
+
+.pemadam-container h6 {
+    width: 90%;
+    margin: auto;
+    font-family: Nunito;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.alamat {
+    font-size: 13px;
+}
+
+.pemadam-container i {
+    color: #FFCD44;
+}
+
+.pemadam-container .col-3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.pemadam-container .col-9 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.garis hr {
+    width: 100%;
+    border: 1px solid #DC4341;
+    opacity: 0.5;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.thumbnail img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.col-9 h5 {
+    margin-bottom: 5px;
+}
+
+.alamat {
+    font-size: 15px;
+}
+
+
+/*Profile Pemadam */
+
+.profile-pemadam-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 140px;
+}
+
+.img-profile img {
+    border-radius: 20px;
+}
+
+.profile h4 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.bintang i {
+    color: #FFCD44;
+    font-size: 25px;
+}
+
+.bintang {
+    margin-top: 30px;
+}
+
+span.alamat {
+    font-size: 15px;
+}
+
+.no-hp {
+    margin-top: 20px;
+}
+
+.no-hp span.phone {
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px 10px 0px;
+    font-size: 30px;
+}
+
+.no-hp span.telp {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.description p {
+    text-align: justify;
+    font-family: Nunito;
+}
+
+.foto-container {
+    margin-top: 40px;
+}
+
+.foto-container hr {
+    width: 40px;
+    border: 2px solid #DC4341;
+    margin-top: 0;
+}
+
+.foto-box img {
+    border-radius: 13px;
+    height: 100px;
+}
+
+.foto-grid .row {
+    margin-top: 30px;
+}

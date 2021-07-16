@@ -1,0 +1,271 @@
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+.heading {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.heading .col-4 {
+    padding: 20px;
+}
+
+.heading .col-4 h2 {
+    text-align: center;
+}
+
+.heading .col-4 {
+    padding: 30px;
+}
+
+.notifications,
+.history {
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.bahasa {
+    text-align: center;
+}
+
+.history {
+    font-size: 35px !important;
+    margin-top: 0px;
+}
+
+.dp48 {
+    font-size: 30px !important;
+    margin-top: 5px;
+}
+
+.notifications {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.notifications .badge {
+    position: absolute;
+    top: -0px;
+    right: -8px;
+    padding: 5px 7px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+.heading .col-6 {
+    padding: 0px;
+}
+
+.pemadam-container {
+    margin-top: 15px;
+}
+
+.pemadam {
+    background-image: linear-gradient(to bottom right, #E26060, #DC4341);
+    width: 85%;
+    margin: auto;
+    padding: 20px 25px;
+    border-radius: 25px;
+    font-family: Nunito;
+}
+
+.pemadam h4 {
+    font-size: 21px;
+    font-family: Nunito;
+    margin-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.pemadam span {
+    font-size: 18px;
+    font-family: Nunito;
+}
+
+.pemadam p {
+    margin-bottom: 0px;
+    font-family: Nunito;
+}
+
+.donation-pocket {
+    margin-top: 10px;
+}
+
+.pemadam .col-3 .level {
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.report-container {
+    margin-top: 40px;
+}
+
+.report-container h2 {
+    text-align: center;
+    font-family: Nunito;
+}
+
+.feeds-news {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.feeds,
+.news {
+    background-color: #DC4341;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.col-6 span.feeds-text {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.col-6 span.news-text {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.donation {
+    background-color: #DC4341;
+    width: 100%;
+    margin: auto;
+    padding: 33px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Nunito;
+    margin-bottom: 10px;
+}
+
+.alert {
+    background-color: #DC4341;
+    width: 100%;
+    margin: auto;
+    padding: 31px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Nunito;
+    margin-bottom: 10px;
+}
+
+.col-6 span.donation-text {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.material-icons.article,
+.material-icons.list {
+    font-size: 30px;
+}
+
+.fire-fighter-list {
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.fire-fighter-list .fire-fighter {
+    border: 1px solid #DC4341;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: Nunito;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #333333;
+    padding: 20px;
+}
+
+.footer .row .col-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer span {
+    font-size: 30px;
+}
+
+.report {
+    background-color: #DC4341;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.report .campaign {
+    margin-top: 50px;
+    font-size: 100px;
+    transform: rotate(-10deg);
+}
+
+.report-text {
+    margin-top: 30px;
+}
+
+a {
+    color: #fff;
+}
+
+.active {
+    color: #DC4341;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.swal2-footer a {
+    color: #1E1E1E !important;
+    text-decoration: underline;
+}

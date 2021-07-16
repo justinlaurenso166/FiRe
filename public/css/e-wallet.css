@@ -1,0 +1,298 @@
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+.heading {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.heading .col-4 {
+    padding: 20px;
+}
+
+.heading .col-4 h2 {
+    text-align: center;
+}
+
+.heading .col-4 {
+    padding: 30px;
+}
+
+.notifications,
+.history {
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.bahasa {
+    text-align: center;
+}
+
+.history {
+    font-size: 35px !important;
+    margin-top: 0px;
+}
+
+.dp48 {
+    font-size: 30px !important;
+    margin-top: 5px;
+}
+
+.notifications {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.notifications .badge {
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    padding: 5px 7px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+span.lang {
+    font-size: 11px;
+    display: block;
+}
+
+.heading .col-6 {
+    padding: 0px;
+}
+
+a {
+    color: #fff;
+}
+
+.active {
+    color: #DC4341;
+}
+
+.activated {
+    background-color: #DC4341 !important;
+    color: #fff !important;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #333333;
+    padding: 20px;
+}
+
+.footer .row .col-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer span {
+    font-size: 30px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+section.sub-heading .col-2 {
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+section.sub-heading hr {
+    height: 2px;
+    width: 110px;
+    margin-top: 0px;
+    color: #fff;
+    background-color: #DC4341;
+}
+
+.content-container {
+    width: 90%;
+    margin: auto;
+}
+
+.gallery {
+    background: #1e1e1e;
+    margin-top: 20px;
+}
+
+.gallery-cell {
+    width: 90%;
+    height: 230px;
+    margin-right: 10px;
+    background: linear-gradient(to right, #DC4341, #e64a23, #ff6600);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: Nunito;
+}
+
+.gallery-cell .row .col-3 {
+    text-align: right;
+    padding-right: 40px;
+}
+
+
+/* .gallery:first-child {
+    margin-left: -35px !important;
+} */
+
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+li.dot {
+    border: 2px solid #df5957;
+    padding: 5px;
+}
+
+li.dot.is-selected {
+    background-color: #DC4341 !important;
+}
+
+.flickity-prev-next-button.previous,
+.flickity-prev-next-button.next {
+    display: none;
+}
+
+.flickity-page-dots .dot {
+    opacity: 1 !important;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle-transparent {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.6;
+    margin-left: -18px;
+}
+
+.profile {
+    margin-top: 80px;
+}
+
+.profile .col-5 {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.card-number,
+.exp-date {
+    font-size: 14px;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+.cell2 {
+    background: linear-gradient(to right, #86d0f8, #39A2DB) !important;
+}
+
+.cell3 {
+    background: linear-gradient(to right, #D7B19D, #C68B59, #865439);
+}
+
+section.content {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.donate-now {
+    margin-top: 20px;
+}
+
+button#add-card,
+button#donate-now {
+    width: 100%;
+    border: 1px solid #DC4341;
+    padding: 8px;
+    font-family: Nunito;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 19px;
+}
+
+.histori-donasi {
+    margin-top: 40px;
+    font-family: Nunito;
+    padding-bottom: 150px;
+}
+
+.histori-donasi hr {
+    width: 140px;
+    border: 1px solid #DC4341;
+    margin-top: 0px;
+}
+
+.histori-list {
+    margin-top: -15px;
+}
+
+.histori-list .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.histori-list .col-4 {
+    text-align: right;
+}
+
+.garis hr {
+    width: 100%;
+    border: 1px solid #DC4341;
+}
+
+.rupiah {
+    font-size: 15px;
+    margin-top: 3px;
+}

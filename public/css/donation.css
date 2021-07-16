@@ -1,0 +1,423 @@
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+.heading {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.heading .col-4 {
+    padding: 20px;
+}
+
+.heading .col-4 h2 {
+    text-align: center;
+}
+
+.heading .col-4 {
+    padding: 30px;
+}
+
+.notifications,
+.history {
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.bahasa {
+    text-align: center;
+}
+
+.history {
+    font-size: 35px !important;
+    margin-top: 0px;
+}
+
+.dp48 {
+    font-size: 30px !important;
+    margin-top: 5px;
+}
+
+.notifications {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.notifications .badge {
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    padding: 5px 7px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+span.lang {
+    font-size: 11px;
+    display: block;
+}
+
+.heading .col-6 {
+    padding: 0px;
+}
+
+a {
+    color: #fff;
+}
+
+.active {
+    color: #DC4341;
+}
+
+.activated {
+    background-color: #DC4341 !important;
+    color: #fff !important;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #333333;
+    padding: 20px;
+}
+
+.footer .row .col-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer span {
+    font-size: 30px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+section.sub-heading .col-2 {
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+section.sub-heading hr {
+    height: 2px;
+    width: 110px;
+    margin-top: 0px;
+    color: #fff;
+    background-color: #DC4341;
+}
+
+section.content-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.general-feeds {
+    width: 100%;
+    font-family: Nunito;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #DC4341;
+    border-radius: 10px;
+}
+
+#search {
+    font-family: Nunito;
+}
+
+.content-container h4 {
+    font-size: 20px;
+    font-family: Nunito;
+    margin-bottom: 20px;
+}
+
+.donation-container {
+    width: 90%;
+    margin: auto;
+    font-family: Nunito;
+}
+
+.donation-container h6 {
+    width: 90%;
+    margin: auto;
+    font-family: Nunito;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.alamat {
+    font-size: 13px;
+}
+
+.donation-container i {
+    color: #FFCD44;
+}
+
+.donation-container .col-7 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.donation-container .col-5 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.garis hr {
+    width: 100%;
+    border: 1px solid #DC4341;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Donation Detail */
+
+.thumbnail img {
+    border-radius: 30px;
+}
+
+.profile h4 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.profile i {
+    color: #FFCD44;
+}
+
+.bintang {
+    margin-top: 10px;
+}
+
+span.alamat {
+    font-size: 15px;
+}
+
+.nominal-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nominal-container .row {
+    margin-top: 20px;
+}
+
+.nominal-container .row .col-4 button {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #DC4341;
+    border-radius: 10px;
+    font-family: Nunito;
+    padding: 10px;
+}
+
+.plus {
+    width: 60px !important;
+}
+
+.modal {
+    color: #000;
+}
+
+.modal-body .form-group div {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Nunito;
+}
+
+#cust-nominal {
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid #1E1E1E;
+    font-family: Nunito;
+}
+
+.ok-btn button {
+    border-radius: 20px;
+    background-color: #DC4341;
+    color: #fff;
+    font-family: Nunito;
+    padding: 10px;
+    width: 100%;
+}
+
+.ok-btn {
+    width: 100px;
+    margin: auto;
+}
+
+
+/* Donation Confirm */
+
+.confirm-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 130px;
+    font-family: Nunito;
+}
+
+.success-container {
+    width: 90%;
+    margin: auto;
+    font-family: Nunito;
+}
+
+.confirm-container h3,
+.success-container h2 {
+    text-align: center;
+}
+
+.detail {
+    padding-left: 40px;
+    margin-top: 60px;
+    font-family: Nunito;
+    font-size: 22px;
+}
+
+.confirm-btn {
+    margin-top: 40px;
+}
+
+.kembali,
+.donasi-btn {
+    width: 90%;
+    margin: auto;
+}
+
+.kembali button,
+.donasi-btn button {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #DC4341;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.kembali button:hover,
+.donasi-btn button:hover {
+    background-color: #DC4341;
+}
+
+.card-container {
+    margin-top: 10px;
+    padding-bottom: 140px;
+}
+
+.card-box {
+    margin-top: 20px !important;
+}
+
+.card-box {
+    width: 80%;
+    margin: auto;
+    height: 230px;
+    background: linear-gradient(to right, #DC4341, #e64a23, #ff6600);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: Nunito;
+}
+
+.card-box .row .col-4 h4 {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.card-boxl:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle-transparent {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.6;
+    margin-left: -18px;
+}
+
+.profile {
+    margin-top: 80px;
+}
+
+.card-number,
+.exp-date {
+    font-size: 14px;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+.cell2 {
+    background: linear-gradient(to right, #86d0f8, #39A2DB) !important;
+}
+
+.cell3 {
+    background: linear-gradient(to right, #D7B19D, #C68B59, #865439);
+}
+
+.success-img {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}

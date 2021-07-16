@@ -1,0 +1,226 @@
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #fff;
+    overflow-x: hidden;
+    font-family: Nunito;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+header .col-2 {
+    padding-top: 20px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+span.lang {
+    font-size: 13px;
+    display: block;
+}
+
+section {
+    margin-top: 60px;
+}
+
+section .row .col-2 a span.arrow_back_ios {
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 25px;
+}
+
+section .col-2 {
+    text-align: center;
+}
+
+section .heading {
+    padding: 30px;
+}
+
+section .heading h2 {
+    font-size: 30px;
+    font-family: Nunito;
+}
+
+section .heading p {
+    font-size: 30px;
+    font-family: Nunito;
+    color: lightgrey
+}
+
+section .input-form {
+    padding: 0px 30px;
+}
+
+.input-form input[type=text] {
+    padding: 30px 20px;
+    border: 1px solid #DC4341;
+    background-color: #1E1E1E;
+    color: lightgrey;
+    font-family: Nunito;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.input-form input[type=number] {
+    padding: 30px 20px;
+    border: 1px solid #DC4341;
+    background-color: #1E1E1E;
+    color: lightgrey;
+    font-family: Nunito;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.input-form input[type=password] {
+    display: inline;
+    padding: 30px 20px;
+    border: 1px solid #DC4341;
+    background-color: #1E1E1E;
+    color: lightgrey;
+    font-family: Nunito;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.input-form i {
+    display: inline;
+    margin-left: -50px;
+    font-size: 25px;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+#password {
+    display: inline;
+}
+
+.sign-in {
+    padding: 30px;
+    text-align: center;
+    margin-top: 230px;
+}
+
+.sign-in a {
+    color: #fff;
+}
+
+.sign-in span {
+    color: lightgrey;
+    font-size: 20px;
+    font-family: Nunito;
+}
+
+.sign-in-btn {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.sign-in button {
+    background-color: #DC4341;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 13px;
+    font-size: 20px;
+}
+
+
+/* Register CSS */
+
+#address {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.register button {
+    background-color: #DC4341;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 13px;
+    font-size: 20px;
+}
+
+.register {
+    padding: 30px;
+    padding-top: 15px;
+}
+
+.register span {
+    font-size: 20px;
+    font-family: Nunito;
+}
+
+.register .radio {
+    margin-top: 20px;
+}
+
+.register label {
+    display: block;
+    font-size: 20px;
+    font-family: Nunito;
+}
+
+.register #role1,
+#role2,
+#role3 {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    margin-right: 20px !important;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-clip: content-box;
+    border: 1px solid #DC4341;
+    background-color: #1E1E1E;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#role1:checked,
+#role2:checked,
+#role3:checked {
+    background-color: #DC4341;
+}
+
+.register-btn {
+    margin-top: 30px;
+}
+
+#password {
+    margin-bottom: 0px;
+}
+
+div.hidden {
+    display: none !important;
+}
